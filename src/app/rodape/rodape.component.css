@@ -1,0 +1,122 @@
+* {
+  list-style: none;
+}
+
+/* FORMATACAO PARA OS MENUs INFERIOR E RODAPE */
+.menusInferior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: midnightblue;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.menuInferiorPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.menuInferiorPrincipal p,
+.menuRedesSociais p,
+.horarioFuncionamento p {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menuInferiorPrincipal a, .menuInferiorPrincipal h6 {
+  text-decoration: none;
+  color: midnightblue;
+}
+
+.menuInferiorPrincipal p[class="h6"] {
+  background-color:blueviolet;
+  border-radius: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+}
+
+.menuInferiorPrincipal p[class="h6"]:hover {
+  /* background-color: #3b3737; */
+  background-color:white;
+  color:blueviolet;
+  font-weight: bold;
+}
+
+/* Menu com as imagens das redes sociais */
+.menuRedesSociais {
+  width: 90%;
+}
+
+.menuRedesSociais img {
+  /* top left bottom right */
+  margin: 5px 20px 5px 30px;
+}
+
+.menuRedesSociais img:hover {
+  background-color: blueviolet;
+  border-radius: 10px;
+  /* background-color: #3b3737; */
+}
+
+.siteb {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.siteb p {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+}
+
+.col-md-4 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.pag {
+  background-color:midnightblue;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pag img {
+  width: 70px;
+  height: 40px;
+  margin: 10px;
+  border: 1px solid white;
+}
+
+/* FORMATACAO PARA O COPYRIGHT DO RODAPE */
+.copyright {
+  /* background-color: wheat; */
+  background-color:blueviolet;
+  height: 35px;
+  width: 100%;
+}
+
+.copyright h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 100%;
+  margin: auto;
+  color: white;
+}

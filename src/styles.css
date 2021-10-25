@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+
+
+#titulo {
+  margin-bottom: 40px;
+}
+
+[class="h1"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo {
+  text-indent: 40px;
+  text-decoration: blueviolet;
+  padding-left: 35px;
+}
+
+[class^="col-md-6"] {
+  border: #eee 1px solid;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.imagem > img {
+  border-radius: 20px;
+}
+

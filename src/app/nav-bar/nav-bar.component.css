@@ -1,0 +1,20 @@
+#logo {
+  height: 40px;
+  width: 40px;
+  margin-left: 30px;
+}
+
+nav {
+  background-color:midnightblue;
+}
+
+nav > div span {
+  color: white;
+  font-weight: bold;
+
+}
+
+nav > div span:hover {
+  color:blueviolet;
+}
+

@@ -1,0 +1,11 @@
+.video-modal {
+  overflow: auto;
+}
+
+.video-modal > video {
+  border-radius: 20px;
+}
+
+i {
+  margin-top: 70px;
+}

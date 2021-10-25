@@ -1,0 +1,4 @@
+Este projeto foi criado somente para estudo de rotas no Angular e o conceito de Single Page Application, portanto, as imagens e videos neste projeto não é de autoria do autor deste projeto, assim sendo, não tenho e não quero reconhecimento por conteúdo de terceiros.
+
+
+Não tenho as fontes refere as imagens, por conta disso, não pude cita aqui os verdadeiros autores e responsáveis por tal autoria. Reservo a eles todos os direitos das imagens.
